@@ -1,0 +1,83 @@
+.emojiComponent{
+    position: absolute;
+    top: 22px;
+    right: 5px;
+	z-index:1000;
+  }
+  .emojiCallIcon{
+    cursor: pointer;
+  }
+  .allEmojiContainer{
+    position: absolute;
+    top: -230px;
+    right: -5px;
+    height: 224px;
+    width: 220px;
+    background: #fff;
+    z-index: 1;
+    border: 1px solid rgb(221, 219, 218);
+    border-radius: 0.25rem;
+    box-shadow: 0 2px 15px 0.5px #c5c5c5;
+    overflow: hidden;
+  }
+  .tabs {
+    width:100%;
+    display:inline-block;
+  }
+  .tab-links{
+    display: flex;
+    justify-content: center;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+  .tab-links:after {
+    display:block;
+    clear:both;
+    content:'';
+  }
+  .tab-links li {
+    height: 22px !important;
+    font-size: .8125rem;
+    margin: 10px 15px;
+    background: none;
+    list-style: none;
+  }
+  .tab-links li a {
+    opacity: .4;
+    padding: 0;
+    display: inline-block;
+    transition: all linear .15s;
+  }
+  .tab-links li a:hover{
+    opacity: 0.6;
+  }
+  .tab-links li.active a{
+    opacity: 0.8;
+  }
+  .tab-links li.active a svg{
+    fill: rgb(0, 109, 204);
+  }
+  .tab-content{
+    font-size: 0 !important;
+  }
+  .tab{
+    display: none;
+    padding: 0 .25rem;
+    width: 100%;
+    height: 180px;
+    overflow-y: scroll;
+    text-align: left;
+  }
+  .tab.active {
+    display: block;
+  }
+  .EmojiIcon{
+    font-size: .8125rem;
+    margin: 5px;
+    max-width: 22px !important;
+    cursor: pointer;
+  }
+  .EmojiIcon:hover{    
+    transform: scale(1.2);
+    transition: 0.1s;
+  }

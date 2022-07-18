@@ -1,0 +1,60 @@
+.panel {
+    margin-top: 10px;
+}
+
+.heading-icon {
+    font-size: 18px;
+    margin-right: 20px;
+}
+
+.panel-title {
+    font-size: 18px;
+}
+
+.form-control-static, .control-label {
+    font-size: 16px;
+}
+
+.panel-body {
+    padding: 15px;
+    background: #fff;
+}
+
+.panel-heading {
+     border-top-left-radius: 0; 
+     border-top-right-radius: 0; 
+}
+
+.panel {
+    background-color: #E7E7E7;
+    border-radius: 0;
+}
+
+textarea.form-control {
+    height: 120px;
+}
+
+@media (min-width: 768px) {
+    .form-inline .form-control {
+        min-width: 200px;
+    }
+    .form-inline .control-label {
+        margin-right: 20px;
+    }
+}
+
+a.collapse-data-btn {
+    color: #333;
+}
+
+.collapse-data-btn .control-label {
+    cursor: pointer;
+}
+
+#details {
+    margin-top: 10px;
+}
+
+.no-padding {
+    padding: 0;
+}
